@@ -1,0 +1,44 @@
+# Ignorar archivos y directorios específicos para Docker
+
+# Ignorar archivos de Python compilados
+__pycache__
+*.pyc
+
+# Ignorar entornos virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignorar archivos de configuración locales
+.env
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos de configuración de VSCode
+.vscode/
+
+# Ignorar la carpeta de documentación de Sphinx
+docs/_build/
+
+# Ignorar archivos y directorios de Git
+.git
+.gitignore
+
+# Ignorar archivos de Docker
+.dockerignore
+
+# Ignorar archivos de configuración local de Docker Compose
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Ignorar archivos generados por MacOS
+.DS_Store
+
+# Ignorar archivos generados por Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
